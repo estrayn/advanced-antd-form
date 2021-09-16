@@ -1,0 +1,39 @@
+{
+  "name": "advanced-antd-form",
+  "version": "1.0.0",
+  "description": "对antd-form封装适用于快速业务表单开发",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "father-build"
+  },
+  "repository": "https://github.com/estrayn/advanced-antd-form",
+  "keywords": [
+    "advanced",
+    "antd",
+    "form",
+    "search",
+    "modal",
+    "drawer"
+  ],
+  "files": [
+    "dist",
+    "types"
+  ],
+  "author": "jerry",
+  "license": "ISC",
+  "types": "types/index.d.ts",
+  "dependencies": {
+    "@types/react": "^17.0.21",
+    "@ant-design/icons": "^4.6.4"
+  },
+  "peerDependencies": {
+    "antd": "^4.0.0",
+    "react": "^16.8 || ^17.0.2"
+  },
+  "devDependencies": {
+    "father-build": "^1.20.0",
+    "antd": "^4.16.13"
+  }
+}
