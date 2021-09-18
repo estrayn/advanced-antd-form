@@ -1,4 +1,4 @@
-import type { AdvancedConfig } from './Types';
+import type { AdvancedConfig } from '../types/Types';
 import type { Rule } from 'rc-field-form/lib/interface';
 
 export function generateFormItems(fields: string[], rules: Record<string, Rule[]> = {}, config: AdvancedConfig) {
@@ -18,7 +18,7 @@ export function generateFormItems(fields: string[], rules: Record<string, Rule[]
   }).filter(item => !!item);
 }
 
-export function request(url, data, options = {}) {
+export function request(url: string, data: Record<string, unknown>, options = {}) {
   return fetch(url, {
     body: JSON.stringify(data),
     cache: 'no-cache',

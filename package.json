@@ -1,6 +1,6 @@
 {
   "name": "advanced-antd-form",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "对antd-form封装适用于快速业务表单开发",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
